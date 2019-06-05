@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "playground": "angular-playground"
+    "playground": "angular-playground",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
   },
   "dependencies": {
     "@angular/animations": "~7.2.15",
@@ -45,10 +46,14 @@
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.4.0",
+    "sonar-scanner": "^3.1.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.4",
     "@types/googlemaps": "3.30.16",
     "angular-playground": "^5.1.5"
+  },
+    "publishConfig": {
+      "registry": "http://172.17.0.4:8081/repository/npm-private/"
   }
 }
