@@ -54,6 +54,6 @@
     "angular-playground": "^5.1.5"
   },
     "publishConfig": {
-      "registry": "http://172.17.0.4:8081/repository/npm-private/"
+      "registry": "http://nexus-sonatype-nexus.workspace.svc:8081/repository/npm-private/"
   }
 }
