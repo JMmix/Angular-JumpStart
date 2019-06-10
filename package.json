@@ -52,5 +52,8 @@
     "typescript": "~3.2.4",
     "@types/googlemaps": "3.30.16",
     "angular-playground": "^5.1.5"
-  }
+  },
+  "publishConfig": {
+    "registry": "http://nexus-sonatype-nexus:8081/repository/npm-private/"
+}
 }
